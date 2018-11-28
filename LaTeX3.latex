@@ -1,0 +1,16 @@
+\documentclass{article}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\begin{document}
+\title{How to print all even numbers from 0 to n}
+\maketitle
+\begin{algorithm}
+\begin{algorithmic}
+\WHILE{$number \neq 0$}
+\IF{$ num \% 2 == 0$}
+\STATE print num
+\ENDIF
+\ENDWHILE
+\end{algorithmic}
+\end{algorithm}
+\end{document}

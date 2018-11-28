@@ -1,0 +1,28 @@
+\documentclass[12pt,a4paper]{article}
+
+\title{Introduction}
+\author{Jeremy}
+\date{20/11/2018}
+\usepackage{graphicx}
+
+\begin{document}
+\maketitle
+\begin{enumerate}
+\item Number 1 is the first number of my student ID.
+\item Nmuber 8 is the second number of my student ID.
+\item These items are both odd and even numbered!
+\end{enumerate}
+
+\begin{itemize}
+\item I am Chinese.
+\item My parents are both Chinese.
+\end{itemize}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=10cm]{a.jpg}
+\caption{This is the caption that will appear under the figure}
+\label{reflabel} % more on this later.
+\end{center}
+\end{figure}
+\end{document}
